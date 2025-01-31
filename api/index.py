@@ -79,6 +79,6 @@ def crearUsuario():
         return jsonify({"error": f"Error en la base de datos: {str(e)}"}), 500
 
 
-app.run() 
+handle=app
 #adaptador a mongo
 
